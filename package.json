@@ -1,0 +1,24 @@
+{
+  "name": "tradingview",
+  "version": "1.0.0",
+  "description": "Converts TradingView's History table to TarderVue compatibale CVS format",
+  "main": "index.js",
+  "bin": {
+    "tradervue": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TraderVue",
+    "TradingView",
+    "CSV"
+  ],
+  "author": "Arie Schwartzman",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "moment": "^2.30.1"
+  }
+}
