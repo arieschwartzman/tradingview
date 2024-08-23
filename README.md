@@ -40,6 +40,12 @@ node index.js <inputFilePath> <outputFilePath>
 
 ### Example
 
+![image](./images/image1.jpg)
+
+![image](./images/image2.jpg)
+
+
+
 ```bash
 node index.js data/input.csv data/output.csv
 ```
